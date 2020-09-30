@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row" id="header">
     <nav class="navbar navbar-expand-lg " id="nav-bar">
       <a class="navbar-brand" href="/index">PASTRIES</a>
@@ -35,7 +35,7 @@
             <a class="nav-link" href="/user?action=order">Order</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About us</a>
@@ -153,7 +153,7 @@
       <img src="https://image.freepik.com/free-photo/different-baking-ingredients-table_144627-29073.jpg" class="img-fluid" alt="eggs">
     </div>
   </div>
-  <div id="contact">
+  <div id="contact" style="text-align: center; padding-top: 50px; height: 300px">
     <h3>Contact us</h3>
     <p>Shop:</p>
     <br>
