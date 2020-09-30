@@ -9,7 +9,7 @@ public class ConnectDatabase {
         Connection conn = null;
         String url = "jdbc:mysql://localhost:3306/bakery_website?useSSL=false";
         String username = "root";
-        String password = "Phungyen@2907";
+        String password = "123456";
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(url, username, password);

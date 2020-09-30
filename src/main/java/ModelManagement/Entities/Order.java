@@ -1,5 +1,7 @@
 package ModelManagement.Entities;
 
+import Model.Inline_item;
+
 import java.util.Date;
 import java.util.List;
 
@@ -10,28 +12,28 @@ public class Order {
     private String customerEmail;
     private String customerPhone;
     private String customerAddress;
-    private List<Product> products;
+    private List<Inline_item> inline_items;
 
     public Order() {
     }
 
-    public Order(Date orderDate, String customerName, String customerEmail, String customerPhone, String customerAddress, List<Product> products) {
+    public Order(Date orderDate, String customerName, String customerEmail, String customerPhone, String customerAddress, List<Inline_item> inline_items) {
         this.orderDate = orderDate;
         this.customerName = customerName;
         this.customerEmail = customerEmail;
         this.customerPhone = customerPhone;
         this.customerAddress = customerAddress;
-        this.products = products;
+        this.inline_items = inline_items;
     }
 
-    public Order(int orderId, Date orderDate, String customerName, String customerEmail, String customerPhone, String customerAddress, List<Product> products) {
+    public Order(int orderId, Date orderDate, String customerName, String customerEmail, String customerPhone, String customerAddress, List<Inline_item> inline_items) {
         this.orderId = orderId;
         this.orderDate = orderDate;
         this.customerName = customerName;
         this.customerEmail = customerEmail;
         this.customerPhone = customerPhone;
         this.customerAddress = customerAddress;
-        this.products = products;
+        this.inline_items = inline_items;
     }
 
     public int getOrderId() {
@@ -82,11 +84,11 @@ public class Order {
         this.customerAddress = customerAddress;
     }
 
-    public List<Product> getProducts() {
-        return products;
+    public List<Inline_item> getInline_items() {
+        return inline_items;
     }
 
-    public void setProducts(List<Product> products) {
-        this.products = products;
+    public void setInline_items(List<Inline_item> products) {
+        this.inline_items = inline_items;
     }
 }
