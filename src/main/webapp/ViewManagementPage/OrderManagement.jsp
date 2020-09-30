@@ -36,6 +36,7 @@
         </div> <!-- navbar-collapse.// -->
     </div><!-- container //  -->
 </nav>
+<br>
 <div class="container-fluid" style="margin-left: 10px; margin-right: 10px">
     <div class="row col-md-12 col-md-offset-2 custyle">
         <table class="table table-striped custab">
@@ -66,6 +67,14 @@
                     <td>${order.customerEmail}</td>
                     <td>${order.customerPhone}</td>
                     <td>${order.customerAddress}</td>
+<%--                    <c:forEach var="item" items="${order.getInline_items()}">--%>
+<%--                        <td>${item.getProduct().getProductId()}</td>--%>
+<%--                        <td>${item.getAmount()}</td>--%>
+<%--                        <td>${item.getUnitPrice()}</td>--%>
+<%--                    </c:forEach>--%>
+<%--                    <td>${order.getInline_items().getProduct().getProductId()}</td>--%>
+<%--                    <td>${order.getInline_items().getAmount()}</td>--%>
+<%--                    <td>${order.getInline_items().getUnitPrice()}</td>--%>
                     <td class="text-center">
                         <a class='btn btn-info btn-xs' data-toggle="modal" data-target="#Edit${item.productId}">
                             <span class="glyphicon glyphicon-edit"></span>Edit</a>
