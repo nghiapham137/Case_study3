@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+    color: #9d0208;
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+#header {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    margin: 0;
+
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    color: #9d0208;
+}
+.navbar-brand:hover {
+    color: #9d0208;
+}
+.nav-link {
+    font-size: 25px;
+    color: #9d0208;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.nav-link:hover {
+    color: #fdfbfb;
+    background-color: #9d0208;
+}
+
+#nav-bar {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border: 0;
+    outline: none;
+    background: white;
+}
+
+.form-control {
+    border: 2px solid #9d0208 !important;
+    border-radius: 20px !important;
+}
+
+
+.btn {
+    outline-color: #9d0208;
+    color: #9d0208;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #9d0208;
+    color: white;
+}
+#banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item {
+
+}
+
+.d-block {
+    height: 650px;
+}
+
+.order-link {
+    color: #fdfbfb;
+    font-size: 20px;
+    font-weight: bold;
+}
+.order-link:hover {
+    color: #9d0208;
+    text-decoration: none;
+}
+
+#productTitle {
+    background-color: #f2e9db;
+    margin: 0;
+    justify-content: center;
+}
+#bestseller {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+#product {
+    width: 100%;
+    background-color: #f2e9db;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+.card {
+    margin: 30px 20px;
+    outline: none;
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.btn-primary {
+    border-color: white !important;
+    background-color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #9d0208 !important;
+}
+#showMore {
+    margin: 0;
+    justify-content: center;
+    background-color: #f2e9db;
+
+}
+#show {
+    color: #9d0208 !important;
+    font-weight: bold;
+}
+#show:hover {
+    color: #9d0208 !important;
+}
+#show2 {
+    padding: 20px;
+}
+
+#introduction {
+    width: 100%;
+    background-color: #f2e9db;
+    margin: 0;
+}
+
+.col-6 {
+    height: 500px;
+}
+
+#girl {
+    padding: 30px;
+    height: 500px;
+}
+
+.img-fluid {
+    padding:10px;
+}
+#aboutUs {
+    text-align: center;
+    padding: 20px;
+}
+#text {
+    background-color: #fdfbfb;
+    margin: 40px ;
+    padding-top: 20px;
+    font-size: 20px;
+}
+#about {
+    /*position: relative;*/
+    width: 100%;
+    /*height: 500px;*/
+    background-color: #fdfbfb;
+    margin: 0;
+}
+
+.about-part {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#ingredient {
+    background-color: #f2e9db;
+    margin: 40px;
+    color: #9d0208;
+    font-size: 20px;
+}
+
+#ingredient-text {
+    padding-top: 20px;
+}
+
+.ingredient-pic {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+#contact {
+    /*position: relative;*/
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin: 0;
+    line-height: 0.5;
+}
+footer {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: #f2e9db;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
